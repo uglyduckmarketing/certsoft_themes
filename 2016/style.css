@@ -397,7 +397,7 @@ to { -o-transform: rotate(360deg) scale(1) skew(0deg) translate(0px); }
 .errors {
     margin: 0px;
     list-style: none;
-    background: #f59898;
+    background: #e74c3c;
     border: none;
     border-radius: 3px;
     padding: 8px 15px;
