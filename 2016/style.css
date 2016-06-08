@@ -394,14 +394,17 @@ to { -o-transform: rotate(360deg) scale(1) skew(0deg) translate(0px); }
 	
 #errors{margin-bottom: 20px}
 #errors .container{width: auto; font-size: .8em}
-.errors{
-	margin: 0px; 
-	list-style: none; 
-	background: #f59898;
-	border: solid 1px red; 
-	border-radius: 5px; 
-	padding: 10px 10px}
-
+.errors {
+    margin: 0px;
+    list-style: none;
+    background: #f59898;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 15px;
+    color: #fff;
+    line-height: normal;
+    padding-top: 11px;
+}
 #alerts{margin-bottom: 20px}
 #alerts .container{width: auto; font-size: .8em}
 .alerts{
@@ -1235,6 +1238,7 @@ a {
     font-size: .83em;
     transition: all .3s ease;
     display: block;
+    padding-top: 17px;
 }
 
 input[type="text"], input[type="email"], input[type="password"] {
