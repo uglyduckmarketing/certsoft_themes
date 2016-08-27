@@ -14,10 +14,10 @@ body{background: #ECF0F1 url() repeat-x; color: #000; font: 100%/1.5em 'Lato', V
 
 /* Headings */
 h1{
-	font-size: 1.5em; color: #111; 
-	font-family: 'Rokkitt', Arial, Helvetica, sans-serif; 
-	font-weight: normal; 
-	border-bottom: solid 1px #ccc; 
+	font-size: 1.5em; color: #111;
+	font-family: 'Rokkitt', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	border-bottom: solid 1px #ccc;
 	padding-bottom: 10px;
 	margin-bottom: 40px}
 h2{font-size: 1.2em; font-family: 'Rokkitt', Arial, Helvetica, sans-serif; font-weight: normal;margin-bottom: 20px}
@@ -31,14 +31,14 @@ p{margin: 10px 0px;}
 
 /* Links */
 a{
-	outline: none; color:#222; 
+	outline: none; color:#222;
 	-webkit-transition: all 100ms ease-in-out;
 	-moz-transition: all 100ms ease-in-out;
 	-ms-transition: all 100ms ease-in-out;
 	-o-transition: all 100ms ease-in-out;
-	transition: all 100ms ease-in-out;		
+	transition: all 100ms ease-in-out;
 }
-a:hover, 
+a:hover,
 a:active {color:#444;}
 a.button_old{background: #c80101; color: #000; border-radius: 3px }
 
@@ -87,13 +87,13 @@ form.inline{display: inline; vertical-align: baseline  !important;}
 .form2 textarea{
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
-            box-sizing: border-box;	
+            box-sizing: border-box;
 	margin: 0px;
 	padding: 7px 2%;
 	width: 100%;
 	border: none;
 	border-radius: 3px;
-	border: solid 1px #ccc	
+	border: solid 1px #ccc
 }
 
 .form2 .fields li{padding: 2px 0px}
@@ -232,7 +232,7 @@ table.form_table td{padding: 5px; margin: 5px; font-size: .75em}
     border-color: #FFBA00;
     color: #000;
     background: -moz-linear-gradient(center top , #FFF 0px, #FFE6A0 2%, #FFBA00 100%) repeat scroll 0% 0% transparent;
-   
+
 	background: #ffffff; /* Old browsers */
 	background: -moz-linear-gradient(center top,  #ffffff 0%, #ffe6a0 2%, #ffba00 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(2%,#ffe6a0), color-stop(100%,#ffba00)); /* Chrome,Safari4+ */
@@ -241,7 +241,7 @@ table.form_table td{padding: 5px; margin: 5px; font-size: .75em}
 	background: -ms-linear-gradient(top,  #ffffff 0%,#ffe6a0 2%,#ffba00 100%); /* IE10+ */
 	background: linear-gradient(top bottom,  #ffffff 0%,#ffe6a0 2%,#ffba00 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFE6A0', endColorstr='#ffba00',GradientType=0 ); /* IE6-9 */
-    
+
 }
 
 .em-button.yellow:hover, .em-button.yellow:focus {
@@ -291,7 +291,7 @@ table.form_table td{padding: 5px; margin: 5px; font-size: .75em}
 	color: #fff;
 	border-radius: 3px;
 	box-sizing: border-box;
-    text-decoration: none;	
+    text-decoration: none;
 	cursor: pointer;
 	display: inline-block;
 	text-align: center
@@ -302,7 +302,7 @@ table.form_table td{padding: 5px; margin: 5px; font-size: .75em}
 	-moz-transition: all 100ms ease-in-out;
 	-ms-transition: all 100ms ease-in-out;
 	-o-transition: all 100ms ease-in-out;
-	transition: all 100ms ease-in-out;	
+	transition: all 100ms ease-in-out;
 }
 .accent_button:hover{
 	border-color: #7BAE23;
@@ -325,12 +325,12 @@ table.form_table td{padding: 5px; margin: 5px; font-size: .75em}
 #cs_overlay{position:fixed; top:0px; left: 0px; z-index:100; height: 100%; width: 100%; background: rgba(255,255,255,.7); }
 #cs_overlay .cs_boundary{width: 90%; margin: 0px auto; max-width: 900px; height: 90%; padding: 0px; padding-top: 2.5%}
 #cs_overlay .cs_content_box{
-	background: #fff; 
-	padding: 0px; 
+	background: #fff;
+	padding: 0px;
 	height: 99%; border-radius: 5px;
 	-webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.2);
 	box-shadow: 0 0 5px 0 rgba(0,0,0,.2);
-	overflow: auto;	
+	overflow: auto;
 	}
 #cs_overlay .cs_content{height: 95%; overflow: auto; font-size: .75em; line-height: 1.4em}
 
@@ -384,31 +384,31 @@ to { -o-transform: rotate(360deg) scale(1) skew(0deg) translate(0px); }
 	-moz-transition: all 100ms ease-in-out;
 	-ms-transition: all 100ms ease-in-out;
 	-o-transition: all 100ms ease-in-out;
-	transition: all 100ms ease-in-out;	
+	transition: all 100ms ease-in-out;
 }
 .display_block{display: block}
 .display_inline_block{display: inline-block}
-	
-	
+
+
 #errors{margin-bottom: 20px}
 #errors .container{width: auto; font-size: .8em}
 .errors{
-	margin: 0px; 
-	list-style: none; 
+	margin: 0px;
+	list-style: none;
 	background: #f59898;
-	border: solid 1px red; 
-	border-radius: 5px; 
+	border: solid 1px red;
+	border-radius: 5px;
 	padding: 10px 10px}
 
 #alerts{margin-bottom: 20px}
 #alerts .container{width: auto; font-size: .8em}
 .alerts{
-	margin: 0px; 
+	margin: 0px;
 	color: rgba(0,0,0,.7);
-	list-style: none; 
+	list-style: none;
 	background: #88d075;
-	border: solid 1px green; 
-	border-radius: 5px; 
+	border: solid 1px green;
+	border-radius: 5px;
 	padding: 10px 10px}
 .field-error{color: red; background: rgba(255,0,0,.2); font-size: .75em; border: solid 1px red; padding: 0px 4px; border-radius: 4px; display: block; margin: 4px 0px}
 
@@ -446,9 +446,9 @@ to { -o-transform: rotate(360deg) scale(1) skew(0deg) translate(0px); }
 
 /* Header */
 #header{
-	background: #1E2226; 
-	color: #eee; 
-	padding: 0px 0px; 
+	background: #1E2226;
+	color: #eee;
+	padding: 0px 0px;
 	margin-bottom: 0px}
 #header .container{}
 #header a{color: #ccc}
@@ -464,11 +464,11 @@ a#logo{color: #fff; text-decoration: none; padding: 0px 0px 0px 0px;margin: 0px 
 #header .menu li{float: left;
 	border-right: solid 1px #000; }
 #header .menu li a{
-	color: #eee; 
-	display: block; 
-	padding: 0px 15px; 
-	height: 50px; 
-	text-decoration: none; 
+	color: #eee;
+	display: block;
+	padding: 0px 15px;
+	height: 50px;
+	text-decoration: none;
 	font-size: .8em;
 	line-height: 50px}
 #header .menu li a:hover{color: #fff;  background: #333}
@@ -587,7 +587,7 @@ box-shadow: 0 0 3px 0 rgba(0,0,0,.4);
 	display: block;
 }
 .login_form button[type="submit"]{
-	background: #ddd; 
+	background: #ddd;
 	background: #9dd53a; /* Old browsers */
 	background: -moz-linear-gradient(top,  #9dd53a 0%, #80c217 51%, #7cbc0a 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9dd53a), color-stop(51%,#80c217), color-stop(100%,#7cbc0a)); /* Chrome,Safari4+ */
@@ -619,7 +619,7 @@ box-shadow: 0 0 3px 0 rgba(0,0,0,.4);
 	display: block;
 }
 .edit_form button[type="submit"]{
-	background: #ddd; 
+	background: #ddd;
 	background: #9dd53a; /* Old browsers */
 	background: -moz-linear-gradient(top,  #9dd53a 0%, #80c217 51%, #7cbc0a 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9dd53a), color-stop(51%,#80c217), color-stop(100%,#7cbc0a)); /* Chrome,Safari4+ */
@@ -656,38 +656,38 @@ box-shadow: 0 0 3px 0 rgba(0,0,0,.4);
 .progress li + li{margin-left: 100px}
 .progress a{text-decoration: none}
 .progress .number{
-	background: #fff; 
+	background: #fff;
 	border: solid 1px #999;
 	margin: 0px auto;
-	border-radius: 20px; 
-	height: 20px; width: 20px; 
-	text-align: center; 
-	color: #999; 
-	display: block; 
+	border-radius: 20px;
+	height: 20px; width: 20px;
+	text-align: center;
+	color: #999;
+	display: block;
 	font-size: 12px;
 	line-height: 20px}
 .progress .text{font-size: .75em}
 
 .progress .current{}
 .progress .current .number{
-	background: orange; 
+	background: orange;
 	border: solid 1px orange;
 	margin-top: -5px;
-	border-radius: 30px; 
-	height: 30px; width: 30px; 
-	text-align: center; 
-	color: white; 
-	display: block; 
+	border-radius: 30px;
+	height: 30px; width: 30px;
+	text-align: center;
+	color: white;
+	display: block;
 	font-size: 12px;
 	line-height: 30px}
-	
+
 
 .progress{
     position: relative;
     z-index: 1;
-    
 
-}	
+
+}
 
    .progress:before {
         border-top: 1px solid #ccc;
@@ -726,7 +726,7 @@ box-shadow: 0 0 3px 0 rgba(0,0,0,.4);
 .status_3 a:hover{background: #fff;}
 
 .chapter-list a{
-	
+
 }
 .course-grid:before,
 .course-grid:after{
@@ -831,18 +831,18 @@ box-shadow: 0 0 3px 0 rgba(0,0,0,.4);
 #packages .selected .inner{outline: solid 1px #000 }
 
 #packages .title{
-	font-size: 1em; 
-	font-weight: bold; 
+	font-size: 1em;
+	font-weight: bold;
 	letter-spacing: -1px;
 	line-height: 1em; border-bottom: solid 1px #ccc; padding: 20px 0px 20px 0px}
 #packages .price{
 	font-size: 2em;
-	letter-spacing: -2px; 
-	line-height: 1em; 
+	letter-spacing: -2px;
+	line-height: 1em;
 	padding: 15px 0px; font-weight: 100}
 #packages .description{
 	background: #f0f0f0;
-	padding: 10px 10px; 
+	padding: 10px 10px;
 	margin-top: 20px;
 	font-size: .75em; line-height: 1.2em; height: 162px; overflow: auto}
 #packages .description ul{list-style: none; padding: 0px; margin: 0px}
@@ -852,15 +852,15 @@ box-shadow: 0 0 3px 0 rgba(0,0,0,.4);
 #packages .recommended .inner{outline: solid 4px green; position: relative; overflow: visible;border-radius: 5px 5px 0px 0px;}
 #packages .recommended .title{font-size: 1.3em;}
 #packages .recommended .title:before{
-	content:'Recommended'; 
-	display: block; 
+	content:'Recommended';
+	display: block;
 	position: absolute;
 	width: 100%;
 	top: -10px;
 	left: 0px;
-	font-size: .5em; 
+	font-size: .5em;
 	text-transform: uppercase;
-	font-weight: normal; 
+	font-weight: normal;
 	letter-spacing: normal;
 	background: green; color: #fff}
 #packages .recommended	.description{height: auto}
@@ -901,36 +901,36 @@ padding: 5px 20px;
 	font-size: .8em;
 	line-height: 1.3em;
 	margin-bottom: 5px; padding: 10px; background: #ffbfbf; border-radius: 5px; border: solid 1px red}
-	
-	
+
+
 #footer{
 	background: #e3e3e3; border-top: solid 1px #ccc; font-size: .8em; line-height: 1.5em;
-	width: 100%; height: 120px; 
-	position: absolute; 
+	width: 100%; height: 120px;
+	position: absolute;
 	bottom: 0px; left: 0px;}
-	
+
 
 .page_login #footer{display: none}
 
 
 .content_box{
-	background: white; 
-	border: solid 1px #ddd; 
-	border-radius: 5px; 
+	background: white;
+	border: solid 1px #ddd;
+	border-radius: 5px;
 	margin-bottom: 30px;
 	color: #8D9AA5;
 	color: #666;
-	
+
 	position: relative;
 	box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);	}
 .content_box a{text-decoration: none}
 .content_box h2{margin-top: 0px; color: #677078;}
-.content_box_header{border-bottom: solid 1px #ddd; font-size: .75em; line-height: 1.2em}	
+.content_box_header{border-bottom: solid 1px #ddd; font-size: .75em; line-height: 1.2em}
 .content_box_header h2{font-size: 2em; line-height: 1em; margin: 0px; color: #8D9AA5;}
 .content_box .box_note{
-	background: rgba(0,0,0,.02); 
-	border: solid 1px rgba(0,0,0,.2); 
-	padding: 10px; 
+	background: rgba(0,0,0,.02);
+	border: solid 1px rgba(0,0,0,.2);
+	padding: 10px;
 	font-size: .8em;
 	margin-bottom: 20px;
 	border-radius: 2px}
@@ -944,7 +944,7 @@ padding: 5px 20px;
 	padding: 0px 20px 0px 10px
 }
 .survey-form th{
-	
+
 }
 
 .survey-form td{
@@ -961,7 +961,7 @@ padding: 5px 20px;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
-   padding: 10px;	
+   padding: 10px;
    width: 95%;
    max-width: 350px;
    font-size: 1em;
@@ -1019,21 +1019,21 @@ padding: 5px 20px;
 
 		#my_overlay{position: fixed; top:0px; left:0px; background: rgba(0,0,0,.7); width: 100%; height: 100%; display: none; z-index:200}
 		#my_overlay_container{background: #fff; padding: 20px; width: 400px; margin: 100px auto 0px auto; border-radius: 3px}
-		
-	
+
+
 /* Adjustemnts for Panels */
 .workspace{background: }
 .workspace .padding{padding: 20px}
 
 #panel_left{
-	width: 15%; height: 100%; 
-	background: #454545; background: #384047; 
-	position: absolute; 
-	top: 0px; left: 0px; 
+	width: 15%; height: 100%;
+	background: #454545; background: #384047;
+	position: absolute;
+	top: 0px; left: 0px;
 	color: #fff; text-align: left; overflow: hidden}
 #panel_left a{ color: #fff}
 a#toggle-left{
-	color: #ccc; 
+	color: #ccc;
 	font-size: 1.5em;
 	text-decoration: none;
 	text-align: right;
@@ -1048,9 +1048,9 @@ a#toggle-left:hover{color: #ddd; }
 }
 
 #panel_left a#toggle-left .label{
-	font-size: 12px; 
+	font-size: 12px;
 	text-decoration: none !important;
-	font-weight: normal; 
+	font-weight: normal;
 	margin-right: 20px;
 	vertical-align: middle
 }
@@ -1062,7 +1062,7 @@ a#toggle-left:hover{color: #ddd; }
 #panel_right{width: 0; height: 100%; background: #f9f9f9; position: absolute; top: 0px; right: 0px; overflow: hidden}
 #panel_right a{ color: #fff}
 #extra-content{min-width: 200px; border-left: solid 1px #fff; height: 100%}
-#content{padding: 0px 0px 121px 0px}	
+#content{padding: 0px 0px 121px 0px}
 
 .no-sidebars #content{padding: 40px 0px 180px 0px}
 .no-sidebars #panel_center{padding: 0px}
@@ -1075,18 +1075,24 @@ a#school_resume_course{position: absolute; top: 13px; right: 10px}
 .pagination a{
 	display: inline-block;
 	margin-left: 2px;
-	border-radius: 2px; 
-	padding: 4px; 
-	background: #f0f0f0; 
+	border-radius: 2px;
+	padding: 4px;
+	background: #f0f0f0;
 	border: solid 1px #e9e9e9;
 	width: 20px;
-	height: 20px; 
-	text-decoration: none; 
+	height: 20px;
+	text-decoration: none;
 	text-align: center;
 	font-size: .8em;
 	line-height: 20px
 	}
 .pagination a:hover{background: #f8f8f8; }
+
+/* 2017 compatible */
+
+.cb-panel {
+    padding: 20px;
+}
 
 /* ======================================================================================================================== Media Queries */
 
@@ -1116,4 +1122,3 @@ a#school_resume_course{position: absolute; top: 13px; right: 10px}
 @media all and (max-width:320px){
 
 }
-
